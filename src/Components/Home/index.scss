@@ -15,34 +15,15 @@
       margin: 0;
       font-family: 'Coolvetica';
       font-weight: 400;
-        letter-spacing: normal;
-    //   &:before {
-    //     content: '';
-    //     font-family: 'La Belle Aurore', cursive;
-    //     color: #ffd700;
-    //     font-size: 18px;
-    //     position: absolute;
-    //     margin-top: -40px;
-    //     left: -15px;
-    //     opacity: 0.6;
-    //   }
-  
-    //   &:after {
-    //     content: '';
-    //     font-family: 'La Belle Aurore', cursive;
-    //     color: #ffd700;
-    //     font-size: 18px;
-    //     position: absolute;
-    //     margin-top: 18px;
-    //     margin-left: 20px;
-    //     animation: fadeIn 1s 1.7s backwards;
-    //     opacity: 0.6;
-    //   }
-  
+        letter-spacing: 3px;
+      
     .HIcon {
         margin-left: 20px;
         opacity: 0;
         width: 50px;
+        margin-bottom: 3px;
+        margin-right: 5px;
+        color: #ffd700;
         height: auto;
         animation: rotateIn 1s linear both;
         animation-delay: 1.4s;
