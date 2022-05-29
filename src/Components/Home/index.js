@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './index.scss'
-import haresh from '../../assets/images/haresh.jpg'
+// import haresh from '../../assets/images/haresh.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { faHeading } from '@fortawesome/free-solid-svg-icons'
