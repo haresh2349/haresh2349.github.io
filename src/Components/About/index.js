@@ -1,7 +1,7 @@
 import {
-  faAngular,
   faCss3,
   faGitAlt,
+  faGithub,
   faHtml5,
   faJsSquare,
   faNodeJs,
@@ -9,17 +9,16 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import AnimateLetters from '../AnimatedLetters'
 import './index.scss'
-import Loader from 'react-loaders'
+// import Loader from 'react-loaders'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
-    }, 1000)
+    }, 3000)
   }, [])
   return (
     <>
@@ -41,11 +40,10 @@ const About = () => {
             I'm quietly confident, naturally curious, and perpetually working on
             improving my chops one design problem at a time.
           </p>
-          <p>
+          {/* <p>
             If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
-          </p>
+            person, !
+          </p> */}
         </div>
         <div className="stage-cube-cont">
           <div className="cubespinner">
@@ -65,7 +63,7 @@ const About = () => {
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              <FontAwesomeIcon icon={faGithub} color="#24292F" />
             </div>
           </div>
         </div>

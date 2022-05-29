@@ -1,0 +1,79 @@
+.skills-page {
+  @media (max-width: 771px) {
+    margin-top: 100px;
+  }
+  .title {
+    width: 40%;
+    margin: 50px auto 10px auto;
+    text-align: center;
+    transform: translateY(-50%);
+    max-height: 90%;
+  }
+  h1 {
+    color: #fff;
+    font-size: 56px;
+    line-height: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+    letter-spacing: 3px;
+  }
+  .skills-icons {
+    display: grid;
+    width: 60%;
+    margin: auto;
+    gap: 50px;
+    grid-template-columns: repeat(3, auto);
+    @media (max-width: 1001px) {
+      grid-template-columns: repeat(2, auto);
+    }
+    @media (max-width: 771px) {
+      grid-template-columns: repeat(1, auto);
+    }
+  }
+  .skill {
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    border-radius: 18px;
+    animation: rotateIn 1s linear both;
+    animation-delay: 1.4s;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    svg {
+      margin-top: 25px;
+    }
+    .skill-text {
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 15px;
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        color: #efd81d;
+      }
+    }
+  }
+  .html {
+    color: #f06529;
+  }
+  .node {
+    color: #dd0031;
+  }
+  .css {
+    color: #28a4d9;
+  }
+  .react {
+    color: #5ed4f4;
+  }
+  .javascript {
+    color: #efd81d;
+  }
+  .git {
+    color: #ec4d28;
+  }
+}

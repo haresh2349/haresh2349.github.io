@@ -1,16 +1,22 @@
 import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
-import HSLogo from '../../assets/images/HSLogo.jpg'
+import HSicon from '../../assets/images/HSicon.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import {
+  faEnvelope,
+  faEye,
+  faGear,
+  faHome,
+  faUser,
+} from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 const Sidebar = () => {
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
-        <img src={HSLogo} alt="img" />
+        <img src={HSicon} alt="img" />
       </Link>
-      <nav>
+      <div className="locater">
         <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="black" />
         </NavLink>
@@ -30,7 +36,23 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} color="black" />
         </NavLink>
-      </nav>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="skills-link"
+          to="/skills"
+        >
+          <FontAwesomeIcon icon={faGear} color="black" />
+        </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="projects-link"
+          to="/project"
+        >
+          <FontAwesomeIcon icon={faEye} color="black" />
+        </NavLink>
+      </div>
       <ul>
         <li>
           <a
