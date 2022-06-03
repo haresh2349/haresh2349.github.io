@@ -32,18 +32,12 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            A dedicated and result-oriented aspiring full-stack developer with a
+            specialization in MERN stack. Curious learner and creative team
+            player, with a keen interest in building user-friendly frontend
+            components. Looking forward to work in challenging work environment
+            with a growth oriented organization.
           </p>
-          <p align="LEFT">
-            I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
-          </p>
-          {/* <p>
-            If I need to define myself in one sentence that would be a family
-            person, !
-          </p> */}
         </div>
         <div className="stage-cube-cont">
           <div className="cubespinner">

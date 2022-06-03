@@ -6,9 +6,24 @@ import About from './Components/About'
 import Contact from './Components/Contact'
 import Skills from './Components/Skills'
 import Projects from './Components/Projects'
-function App() {
+import { useEffect } from 'react'
+
+const App = () => {
+  const hideLoader = (loader) => {
+    loader.classList.add('loader--hide')
+    loader.classList.remove('loader--show')
+  }
+  useEffect(() => {
+    const loader = document.querySelector('.loading')
+    setTimeout(() => {
+      hideLoader(loader)
+    }, 1000)
+  }, [])
   return (
     <>
+      <div className="loading loader--show">
+        <div className="loader"></div>
+      </div>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

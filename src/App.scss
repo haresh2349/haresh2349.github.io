@@ -1,34 +1,72 @@
 $primary-color: #ffd700;
 
-@import "animate.css";
+@import 'animate.css';
 // @import '~loader.css/src/animatins/pacman.scss';
 
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url("./assets/fonts/helvetica-neu.ttf") format("ttf")
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
 }
 
 @font-face {
-  font-family: "La Belle Aurore";
-  src: url("./assets/fonts/LaBelleAurore.woff2") format("woff2")
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: "Coolvetica";
-  src: url("./assets/fonts/CoolveticaRg-Regular.woff2") format("woff2")
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
-input,textarea{
-  font-family: "Helvetica Neue";
+input,
+textarea {
+  font-family: 'Helvetica Neue';
+}
+.loading.loader--hide {
+  display: none;
 }
 
-.loader-active{
-  display: block;
-  position: absolute;
+.loading.loader--show {
+  position: fixed;
   top: 0;
   left: 0;
-  right: 0;
   bottom: 0;
-  width: 50px;
-  margin: auto;
+  right: 0;
+  height: 100vh;
+  z-index: 9999999;
+  background-color: #022c43;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  animation: pulse 0.8s infinite linear;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.15);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

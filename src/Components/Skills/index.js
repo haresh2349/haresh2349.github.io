@@ -2,7 +2,9 @@ import './index.scss'
 import AnimateLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import ReduxLogo from '../../assets/images/ReduxLogo.png'
+import Reduxicon from '../../assets/images/Reduxicon.png'
+import Mongodb from '../../assets/images/Mongodb.png'
+import expressjs from '../../assets/images/expressjs.png'
 import {
   faCss3,
   faGithub,
@@ -55,6 +57,30 @@ const Skills = () => {
         <div className="skill git">
           <FontAwesomeIcon icon={faGithub} color="#24292F" />
           <h3 className="skill-text">GitHub</h3>
+        </div>
+        <div className="skill redux">
+          <img
+            style={{ width: '100px', paddingTop: '20px' }}
+            src={Reduxicon}
+            alt=""
+          />
+          <h3 className="skill-text">Redux</h3>
+        </div>
+        <div className="skill mongodb">
+          <img
+            style={{ width: '100px', paddingTop: '20px' }}
+            src={Mongodb}
+            alt=""
+          />
+          <h3 className="skill-text">MongoDB</h3>
+        </div>
+        <div className="skill mongodb">
+          <img
+            style={{ width: '100px', paddingTop: '20px' }}
+            src={expressjs}
+            alt=""
+          />
+          <h3 className="skill-text">ExpressJs</h3>
         </div>
       </div>
     </div>

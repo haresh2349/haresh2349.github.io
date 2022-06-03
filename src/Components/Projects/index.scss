@@ -28,11 +28,17 @@
   margin-top: 100px;
   width: 70%;
   margin: 50px auto;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
   h2 {
     font-size: 42px;
     text-align: center;
@@ -51,9 +57,9 @@
     display: block;
   }
   .left-box {
-    width: 100%;
+    width: 50%;
     .img-box {
-      width: 50%;
+      width: 70%;
       margin: auto;
       height: 245px;
       overflow: hidden;
@@ -73,10 +79,12 @@
       justify-content: space-around;
       padding: 20px 30px;
       .icon {
+        text-align: center;
         svg {
           font-size: 60px;
         }
         h3 {
+          text-align: center;
           color: #fff;
           &:hover {
             color: #ffdd70;
@@ -88,12 +96,14 @@
 }
 .right-box {
   width: 50%;
+  padding: 20px;
   @media (max-width: 961px) {
     width: 100%;
   }
   .text {
     p {
-      font-size: 22px;
+      font-size: 20px;
+      text-align: justify;
       color: #fff;
       @media (max-width: 961px) {
         font-size: 18px;
@@ -120,6 +130,7 @@
       border: 1px solid #ffd700;
       margin-top: 25px;
       float: left;
+      background: none;
       animation: fadeInAnimation 2s 1.8s backwards;
       white-space: nowrap;
 
@@ -133,6 +144,6 @@
     }
   }
 }
-.lynda {
-  margin-bottom: 200px;
-}
+// .lynda {
+//   margin-bottom: 200px;
+// }

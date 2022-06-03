@@ -1,25 +1,24 @@
 import React, { useEffect, useState } from 'react'
 import './index.scss'
-// import haresh from '../../assets/images/haresh.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { faHeading } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 import AnimateLetters from '../AnimatedLetters'
 import Profile from './Profile'
-// import haresh from './Logo'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['a', 'r', 'e', 's', 'h']
   const postArray = [
-    'f',
-    'r',
-    'o',
-    'n',
+    'F',
+    'u',
+    'l',
+    'l',
+    'S',
     't',
-    'e',
-    'n',
-    'd',
+    'a',
+    'c',
+    'k',
     ' ',
     'd',
     'e',
@@ -59,7 +58,7 @@ const Home = () => {
           <AnimateLetters
             letterClass={letterClass}
             strArray={postArray}
-            idx={22}
+            idx={19}
           />
         </h2>
         <br />
@@ -69,9 +68,15 @@ const Home = () => {
         {/* <br /> */}
         <a
           target="_blank"
-          href="https://docs.google.com/document/d/11m6m8h7Oipeyt124-me4LMZMMZiIHOPIQ2wACeqz0g0/edit#"
+          href="https://drive.google.com/file/d/1rLt4NhUEa7DGjUC9GNHCTHCb4iVTJrA2/view?usp=sharing"
         >
           <div className="flat-button">RESUME</div>
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/haresh-solanki">
+          <div className="flat-button">LINKEDIN</div>
+        </a>
+        <a target="_blank" href="https://github.com/haresh2349">
+          <div className="flat-button">GITHUB</div>
         </a>
       </div>
       <Profile />
