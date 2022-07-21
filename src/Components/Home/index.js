@@ -68,7 +68,7 @@ const Home = () => {
         {/* <br /> */}
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/1rLt4NhUEa7DGjUC9GNHCTHCb4iVTJrA2/view?usp=sharing"
+          href="https://drive.google.com/file/d/19_h6jiRNcIeFtHAPzIuPgWznGos_lSbB/view?usp=sharing"
         >
           <div className="flat-button">RESUME</div>
         </a>
