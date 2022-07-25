@@ -12,7 +12,6 @@ const Contact = () => {
     }, 2000)
   }, [])
   const formRef = useRef()
-  console.log(formRef.current, 'from')
   const handleSubmit = (e) => {
     e.preventDefault()
     emailjs
@@ -24,8 +23,9 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text)
-          // form.reset()
+          Array.from(document.querySelectorAll(".input")).forEach(
+            input => (input.value = "")
+          );
         },
         (error) => {
           console.log(error.text)
@@ -49,7 +49,7 @@ const Contact = () => {
             using below form either.
           </p>
           <div className="contact-form">
-            <form ref={formRef} onSubmit={handleSubmit}>
+            <form ref={formRef} onSubmit={handleSubmit} className="form">
               <ul>
                 <li className="half">
                   <input
@@ -57,6 +57,7 @@ const Contact = () => {
                     placeholder="Name"
                     name="user_name"
                     required
+                    className='input'
                   />
                 </li>
                 <li className="half">
@@ -65,6 +66,7 @@ const Contact = () => {
                     placeholder="Email"
                     name="user_email"
                     required
+                    className='input'
                   />
                 </li>
                 <li>
@@ -73,6 +75,7 @@ const Contact = () => {
                     placeholder="Subject"
                     name="user_subject"
                     required
+                    className='input'
                   />
                 </li>
                 <li>
@@ -80,6 +83,7 @@ const Contact = () => {
                     name="messege"
                     placeholder="Messege"
                     required
+                    className='input'
                   ></textarea>
                 </li>
                 <li>
