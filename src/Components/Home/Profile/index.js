@@ -1,10 +1,10 @@
 import './index.scss'
-import Darkbg from '../../../assets/images/Darkbg.png'
+import haresh from '../../../assets/images/haresh.jpg'
 const Profile = () => {
   return (
     <div className="profile-container">
       <div className="bg"></div>
-      <img className="solid-img" src={Darkbg} alt="" />
+      <img className="solid-img" src={haresh} alt="" />
     </div>
   )
 }

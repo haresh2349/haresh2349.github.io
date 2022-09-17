@@ -68,7 +68,8 @@
         width: 100%;
         border-radius: 12px;
         object-fit: contain;
-        transition: all 3s ease;
+        transition: all 8s ease;
+        cursor: pointer;
       }
     }
     .img-box:hover img {
@@ -133,7 +134,7 @@
       background: none;
       animation: fadeInAnimation 2s 1.8s backwards;
       white-space: nowrap;
-
+      cursor: pointer;
       &:hover {
         background: #ffd700;
         color: #333;

@@ -41,8 +41,9 @@
     left: 0;
     margin: auto;
     width: 100%;
-    // opacity: 0;
-    // transform: rotateZ(30deg) !important;
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
     z-index: 1;
     border: 1px solid #ffd700;
   }
