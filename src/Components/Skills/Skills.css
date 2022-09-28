@@ -1,0 +1,57 @@
+.s {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 60px;
+  color: #fff;
+  /* padding: 150px 0; */
+}
+.s-heading p {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+.s-box {
+  max-width: 200px;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.s-name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.s-box .s-img-box {
+  width: 100%;
+  height: 210px;
+}
+.s-box .s-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 768px) {
+  .skills {
+    padding: 20px 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .skills {
+    padding: 0;
+  }
+  .s-heading {
+    font-size: 35px;
+  }
+  .s-box {
+    max-width: 170px;
+  }
+}

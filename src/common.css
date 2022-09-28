@@ -1,0 +1,41 @@
+.wrapper {
+  width: 100%;
+  background-color: #231f20;
+}
+
+.container {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.fullpage.loader--show {
+  height: 100vh;
+  position: fixed;
+  z-index: 9999999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #10101a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fullpage.loader--hide {
+  display: none;
+}
+
+.fullpage .loader {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border-top: 8px solid rgba(255, 255, 255, 1);
+  border-left: 8px solid rgba(255, 255, 255, 1);
+  border-right: 8px solid rgba(255, 255, 255, 0);
+  animation: spin 0.575s infinite linear;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

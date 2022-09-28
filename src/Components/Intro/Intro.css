@@ -1,0 +1,165 @@
+.i-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 60px;
+  /* padding: 150px 0; */
+  height: 100vh;
+}
+/* .i-left,
+  .i-right {
+    flex: 0.6;
+  } */
+
+.i-left {
+  width: 40%;
+  overflow: hidden;
+  /* height: 50%; */
+}
+
+.i-right {
+  width: 50%;
+  color: #fff;
+}
+
+.i-img {
+  width: 100%;
+  /* border: 10px solid #fff; */
+  border-radius: 20px;
+  overflow: hidden;
+  /* height: 50%; */
+  max-height: 500px;
+  /* padding: 10px; */
+}
+
+.span-name {
+  font-size: 40px;
+}
+.i-text-desc {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.i-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.i-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* height: 100%; */
+  justify-content: space-between;
+}
+
+.i-text,
+.i-text-hi {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.i-text-hi {
+  margin-bottom: 5px;
+}
+
+.i-resume,
+.work {
+  width: 78%;
+  margin-top: 20px;
+}
+.work {
+  margin-top: 30px;
+  display: flex;
+}
+.work .work-icon a {
+  margin-right: 12px;
+  text-decoration: none;
+}
+.work .work-icon a svg {
+  width: 2em;
+  height: 2em;
+}
+.work .work-icon a.linked_in svg {
+  fill: #4070f4;
+}
+.work .work-icon a.github svg {
+  fill: #fff;
+}
+.work .work-icon a.email svg {
+  fill: #fff;
+}
+.i-resume a.r-btn {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #4070f4;
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 4px;
+  transition: border-radius 0.4s ease-in-out;
+}
+.i-resume a.r-btn:hover {
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .i-wrapper {
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+    padding-top: 107px;
+  }
+  .i-left {
+    width: 80%;
+  }
+  .i-right {
+    /* flex: 1; */
+    width: 100%;
+    padding: 40px;
+  }
+  /* .i-resume {
+      width: 100%;
+    }
+    .work {
+      width: 100%;
+    } */
+}
+
+@media only screen and (max-width: 500px) {
+  .i-wrapper {
+    flex-direction: column;
+    height: auto;
+    padding-top: 107px;
+  }
+  .i-left {
+    width: 80%;
+  }
+
+  .i-right {
+    width: 100%;
+    /* padding: 20px; */
+  }
+  .i-text,
+  .i-text-hi {
+    font-size: 22px;
+  }
+  .span-name {
+    font-size: 25px;
+  }
+  .i-text-desc {
+    font-size: 18px;
+  }
+  .i-resume a.r-btn {
+    font-size: 20px;
+  }
+  .work .work-icon a svg {
+    width: 1.9rem;
+    height: 1.9rem;
+  }
+}
