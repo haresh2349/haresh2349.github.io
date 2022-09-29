@@ -14,7 +14,7 @@
 }
 
 .n-left {
-  width: 40px;
+  width: 50px;
   height: 40px;
   display: flex;
   align-items: center;
@@ -49,6 +49,7 @@
 .logo {
   width: 100%;
   height: 100%;
+  color: #fff;
 }
 .logo img {
   width: 100%;

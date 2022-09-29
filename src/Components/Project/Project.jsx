@@ -6,6 +6,7 @@ import 'aos/dist/aos.css'
 import Bounce from 'react-reveal/Bounce'
 
 const Project = ({ gitlink, link, img, id, title, desc, tech }) => {
+  console.log(link, gitlink)
   useEffect(() => {
     AOS.init({ duration: 2000 })
   }, [])
