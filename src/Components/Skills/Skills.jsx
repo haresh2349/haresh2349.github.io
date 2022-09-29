@@ -137,6 +137,61 @@ const Skills = () => {
                 <p className="s-name">Git</p>
               </div>
             </Bounce>
+            <Bounce left>
+              <div className="s-box">
+                <div className="s-img-box">
+                  <img
+                    src="	https://assets.log2base2.com/Assets/CoursesIcons/Default/DataStructures.svg"
+                    alt=""
+                  />
+                </div>
+                <p className="s-name">Data Structures</p>
+              </div>
+            </Bounce>
+            <Bounce right>
+              <div className="s-box">
+                <div className="s-img-box">
+                  <img
+                    src="	https://assets.log2base2.com/Assets/CoursesIcons/Default/Algorithms.svg"
+                    alt=""
+                  />
+                </div>
+                <p className="s-name">Algorithms</p>
+              </div>
+            </Bounce>
+            <Bounce left>
+              <div className="s-box">
+                <div className="s-img-box">
+                  <img
+                    src="	https://cdn2.vectorstock.com/i/thumb-large/65/16/teamwork-skills-flat-banner-template-multiracial-vector-29126516.jpg"
+                    alt=""
+                  />
+                </div>
+                <p className="s-name">Leadership</p>
+              </div>
+            </Bounce>
+            <Bounce left>
+              <div className="s-box">
+                <div className="s-img-box">
+                  <img
+                    src="	https://cdn5.vectorstock.com/i/thumb-large/62/94/good-communication-concept-icon-vector-31586294.jpg"
+                    alt=""
+                  />
+                </div>
+                <p className="s-name">Communication</p>
+              </div>
+            </Bounce>
+            <Bounce right>
+              <div className="s-box">
+                <div className="s-img-box">
+                  <img
+                    src="	https://cdn2.vectorstock.com/i/thumb-large/65/16/teamwork-skills-flat-banner-template-multiracial-vector-29126516.jpg"
+                    alt=""
+                  />
+                </div>
+                <p className="s-name">Team Work</p>
+              </div>
+            </Bounce>
           </div>
         </Flip>
       </div>
