@@ -1,12 +1,11 @@
-import './App.scss'
-import { Routes, Route } from 'react-router-dom'
-import Layout from './Components/Layout'
-import Home from './Components/Home'
-import About from './Components/About'
-import Contact from './Components/Contact'
-import Skills from './Components/Skills'
-import Projects from './Components/Projects'
 import { useEffect } from 'react'
+import Navbar from './Components/Navbar/Navbar'
+import './common.css'
+import Intro from './Components/Intro/Intro'
+import About from './Components/About/About'
+import Skills from './Components/Skills/Skills'
+import Projects from './Components/Projects/Projects'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   const hideLoader = (loader) => {
@@ -24,15 +23,12 @@ const App = () => {
       <div className="loading loader--show">
         <div className="loader"></div>
       </div>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/project" element={<Projects />} />
-        </Route>
-      </Routes>
+      <Navbar />
+      <Intro />
+      <About />
+      <Skills />
+      <Projects />
+      <Footer />
     </>
   )
 }

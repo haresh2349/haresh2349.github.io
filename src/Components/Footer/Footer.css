@@ -1,0 +1,52 @@
+.f {
+  border-top: 1px solid #333;
+  padding: 0 20px;
+  color: #fff;
+}
+.f-wrapper {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.f-head {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.f-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.handles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.h-icon a svg {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 20px;
+}
+
+.h-icon a.linked_in svg {
+  fill: #4070f4;
+}
+.h-icon a.github svg {
+  fill: #fff;
+}
+.h-icon a.email svg {
+  fill: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .f-head {
+    font-size: 25px;
+  }
+  .f-name {
+    font-size: 18px;
+  }
+}

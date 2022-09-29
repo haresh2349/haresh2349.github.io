@@ -1,13 +1,9 @@
-html {
-  font-size: 62.5%;
-}
-body {
+* {
+  padding: 0;
   margin: 0;
-  font: 300 11px/1.4 'Helvetica Neue', sans-serif;
-  color: #444;
-  background-color: #022c43;
-  overflow-y: scroll;
-  display: block;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.parent {
+  background-color: #101010;
 }
