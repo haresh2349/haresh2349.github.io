@@ -39,7 +39,7 @@
  */
 
 /**
- * React Router DOM v6.3.0
+ * React Router v6.3.0
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -49,13 +49,8 @@
  * @license MIT
  */
 
-/**
- * React Router v6.3.0
- *
- * Copyright (c) Remix Software Inc.
+/** @license MUI v5.10.7
  *
  * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
+ * LICENSE file in the root directory of this source tree.
  */
