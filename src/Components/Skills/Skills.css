@@ -8,6 +8,9 @@
   color: #fff;
   /* padding: 150px 0; */
 }
+.s-main_heading{
+  margin-bottom: 30px;
+}
 .s-heading p {
   font-size: 30px;
   font-weight: 700;
@@ -37,6 +40,7 @@
   height: 100%;
   object-fit: contain;
 }
+
 
 @media only screen and (max-width: 768px) {
   .skills {

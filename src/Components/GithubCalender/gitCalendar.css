@@ -1,0 +1,34 @@
+.gc-box{
+    max-width: 1080px;
+    color: #FFFF;
+    text-align: center;
+}
+
+.gc-title-box{
+    padding: 20px 0;
+}
+.gc-title{
+    font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.gc-cal{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.gc-stats{
+    display: flex;
+    grid-gap: 20px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin: 10px auto;
+}
+/* .gc-top{
+    width: 50%;
+} */
+
+.gc-top img, .gc-bottom img {
+    width: 100%;
+    height: 140px;
+}
+

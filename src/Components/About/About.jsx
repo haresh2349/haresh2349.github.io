@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 import MailIcon from '@mui/icons-material/Mail'
 import Flip from 'react-reveal/Flip'
 import Bounce from 'react-reveal/Bounce'
-
+import CallIcon from '@mui/icons-material/Call'
 const About = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 })
@@ -34,10 +34,14 @@ const About = () => {
               <div className="connect-at">
                 <div className="connect-icon">
                   <MailIcon />
+                  <a href="mailto:hareshcsolanki07@gmail.com">
+                    hareshcsolanki07@gmail.com
+                  </a>
                 </div>
-                <a href="mailto:hareshcsolanki07@gmail.com">
-                  hareshcsolanki07@gmail.com
-                </a>
+                <div>
+                  <CallIcon />
+                  <a href="tel:7874922349">Contact no: 7874922349</a>
+                </div>
               </div>
             </Bounce>
           </div>
