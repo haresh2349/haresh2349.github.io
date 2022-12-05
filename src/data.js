@@ -1,15 +1,15 @@
-import p1 from './assets/images/Bitrix24.png'
+import p1 from './assets/images/instagram_preview.png'
 import p2 from './assets/images/Lystshot.png'
-import p3 from './assets/images/Lyndashot.png'
+import p3 from './assets/images/Bitrix24.png'
 
 const data = [
   {
     id: 1,
     img: { p1 },
-    link: 'https://bitrix24-website-clone.netlify.app/',
-    gitlink: 'https://github.com/AnshGirdhar1/psychotic-cars-5822',
-    title: 'Bitrix24 Clone',
-    desc: 'Bitrix24 is an online workspace for small, medium, and large businesses.',
+    link: 'https://instagram-clone-sigma-one.vercel.app/',
+    gitlink: 'https://github.com/haresh2349/instagram_mern_clone',
+    title: 'Instagram Clone',
+    desc: 'A simple, fun & creative way to capture, edit & share photos, videos & messages with friends & family.',
     tech: [
       'ReactJS',
       'Redux',
@@ -32,11 +32,19 @@ const data = [
   {
     id: 3,
     img: { p3 },
-    link: 'https://projectlynda.netlify.app/',
-    gitlink: 'https://github.com/haresh2349/LinkedinLearning',
-    title: 'Linkedin Learning Clone',
-    desc: 'LinkedIn Learning is an American online learning provider. It provides video courses taught by industry experts in software, creative, and business skills. It is a subsidiary of LinkedIn.',
-    tech: ['HTML', 'CSS', 'JAVASCRIPT', 'ES6'],
+    link: 'https://bitrix24-website-clone.netlify.app/',
+    gitlink: 'https://github.com/haresh2349/psychotic-cars-5822',
+    title: 'Bitrix Clone',
+    desc: 'Bitrix24 is an online workspace for small, medium, and large businesses.',
+    tech: [
+      'ReactJS',
+      'Redux',
+      'NodeJs',
+      'Express',
+      'MongoDB',
+      'Mongoose',
+      'Chakra-UI',
+    ],
   },
 ]
 

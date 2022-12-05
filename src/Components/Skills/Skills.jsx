@@ -125,11 +125,11 @@ const Skills = () => {
                 <div className="s-box">
                   <div className="s-img-box">
                     <img
-                      src="	https://chiranjeev-thapliyal.vercel.app/svg/material-ui.svg"
+                      src="https://img.icons8.com/color/288/chakra-ui.png"
                       alt=""
                     />
                   </div>
-                  <p className="s-name">Material UI</p>
+                  <p className="s-name">Chakra UI</p>
                 </div>
               </Bounce>
               <Bounce left>
