@@ -12,7 +12,7 @@ const Project = ({ gitlink, link, img, id, title, desc, tech }) => {
   }, [])
   return (
     <div
-      data-aos="fade-down"
+      // data-aos="fade-down"
       data-aos-offset="200"
       data-aos-delay="50"
       data-aos-duration="1000"
