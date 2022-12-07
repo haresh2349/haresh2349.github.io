@@ -59,7 +59,7 @@ const Intro = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://drive.google.com/file/d/1Fd1tQL3-JLcM7UYGqtLjnns5mLPvS0rE/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1tmmXmZOMO1-H1AsnbIoLi_BLRwcybyAD/view?usp=share_link"
                     className="r-btn"
                   >
                     Resume
