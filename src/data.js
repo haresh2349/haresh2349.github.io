@@ -6,7 +6,7 @@ const data = [
   {
     id: 1,
     img: { p1 },
-    link: 'https://instagram-project-puce.vercel.app/',
+    link: 'https://instagram-mern-clone.vercel.app/',
     gitlink: 'https://github.com/haresh2349/instagram_mern_clone',
     title: 'Instagram Clone',
     desc: 'A simple, fun & creative way to capture, edit & share photos, videos & messages with friends & family.',
