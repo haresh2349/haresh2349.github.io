@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './Intro.css'
-import me5 from '../../assets/images/haresh.jpg'
+import profile from '../../assets/images/HareshProfile.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Fade from 'react-reveal/Fade'
@@ -33,7 +33,7 @@ const Intro = () => {
             <div data-aos="fade" className="i-left">
               <Fade left>
                 <div className="i-img">
-                  <img src={me5} alt="Profile_Image" />
+                  <img src={profile} alt="Profile_Image" />
                 </div>
               </Fade>
             </div>
@@ -59,7 +59,7 @@ const Intro = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://drive.google.com/file/d/1tmmXmZOMO1-H1AsnbIoLi_BLRwcybyAD/view?usp=share_link"
+                    href="https://drive.google.com/file/d/1lrGG4Zk-e8hk5jR-d1cT52Dp_QKGE-ws/view?usp=drive_link"
                     className="r-btn"
                   >
                     Resume
@@ -96,7 +96,7 @@ const Intro = () => {
                   <div className="work-icon">
                     <a
                       className="email"
-                      href="mailto:hareshcsolanki07@gmail.com"
+                      href="mailto:haresh.solanki.works@gmail.com"
                     >
                       <MailIcon />
                     </a>

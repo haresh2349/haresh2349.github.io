@@ -32,7 +32,7 @@ const data = [
   {
     id: 3,
     img: { p3 },
-    link: 'https://bitrix24-website-clone.netlify.app/',
+    link: 'https://bitrix24-web-clone.netlify.app/',
     gitlink: 'https://github.com/haresh2349/psychotic-cars-5822',
     title: 'Bitrix Clone',
     desc: 'Bitrix24 is an online workspace for small, medium, and large businesses.',

@@ -53,7 +53,10 @@ const Footer = () => {
             <Bounce right>
               <div className="h-icon">
                 <div className="work-icon">
-                  <a className="email" href="mailto:hareshcsolanki07@gmail.com">
+                  <a
+                    className="email"
+                    href="mailto:haresh.solanki.works@gmail.com"
+                  >
                     <MailIcon />
                   </a>
                 </div>
