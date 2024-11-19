@@ -6,7 +6,7 @@ const data = [
   {
     id: 1,
     img: { p1 },
-    link: 'https://instagram-haresh-2309.netlify.app/',
+    link: 'https://instagram-mern-clone-6.onrender.com',
     gitlink: 'https://github.com/haresh2349/instagram_mern_clone',
     title: 'Instagram Clone',
     desc: 'A simple, fun & creative way to capture, edit & share photos, videos & messages with friends & family.',
